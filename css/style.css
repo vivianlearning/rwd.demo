@@ -1,0 +1,82 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::after, *::before { box-sizing:border-box; }
+
+.container{
+    margin: 0px auto;
+    max-width: 1088px; 
+    border: black 1px solid;
+}
+
+.footer{
+    background: #F5F5F5;
+    height: 56px;
+}
+
+.footer .container p {
+    text-align: center;
+    font-family: Noto Sans TC;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 56px;
+}
+
+.footer-plan{
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg);
+	height: 503px;
+}
+
+.footer-plan .container p{
+	text-align: center;
+	font: normal normal bold 32px/46px Noto Sans TC;		
+	letter-spacing: 0px;
+	color: #221E1F;
+	line-height: 503px;
+}
